@@ -1,0 +1,32 @@
+body {
+    background-color: #e7dee1; /* light pink bkgd for container */
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #d08aa0 !important; /* Dark background for navbar */
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.container {
+    padding: 30px;
+    font-family: "Futura", sans-serif;
+        font-size: 30px;
+        "overflow": (
+            property: overflow,
+            values: auto hidden visible scroll,
+          ),
+          "overflow-x": (
+            property: overflow-x,
+            values: auto hidden visible scroll,
+          ),
+          "overflow-y": (
+            property: overflow-y,
+            values: auto hidden visible scroll,
+          ),
+}
